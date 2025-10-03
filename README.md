@@ -18,7 +18,7 @@ Futtasd a `run.sh` fájlt. Ez létrehoz egy virtuális környezetet (`.venv`), �
 Ha a `.venv` már megvan, akkor nem telepít újra semmit.
 Továbbra is érdemes a `run.sh`-val indítani, mert az aktiválja a virtuális környezetet, majd elindítja a `main.py`-t.
 
-## Manuális indítás
+## Manuális indítás (Csak Linux-on)
 
 Nyisd meg a terminált a projekt mappájában.
 Írd be:
@@ -35,5 +35,5 @@ python main.py
 
 ## Információ
 
-A `run.sh` Linuxra készült script, amely Debian-alapú rendszereken fut megfelelően (az `apt-get` miatt).
-A Windowsra készült indítóscript várhatóan hamarosan elkészül.
+A `run.sh` Debian alapú rendszerekre definiált indító. A `run.ps1` és a `run.bat` Windows-ra definiált indítók.
+(Ajánlott használni a `run.ps1` indítót. A `run.bat` parancssorra definiált indító)
