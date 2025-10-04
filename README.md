@@ -35,8 +35,7 @@ python main.py
 
 ## Információ
 
-A `run.sh` Debian alapú rendszerekre definiált indító. A `run.ps1` és a `run.bat` Windows-ra definiált indítók.
-(Ajánlott használni a `run.ps1` indítót. A `run.bat` parancssorra definiált indító) Python és FFmpeg szükséges
+A `run.sh` Debian alapú rendszerekre definiált indító. A `run.ps1` Windows-ra definiált indító. Python és FFmpeg szükséges
 a futtatáshoz. FFmpeg nélkül is fut, de azzal rakja össze a program a hangot és a videót. Anélkül csak videó vagy csak hang tölthető le.
 
 FFmpeg telepítése linux Debian alapú rendszereken:
