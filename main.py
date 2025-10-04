@@ -21,13 +21,14 @@ class Letolto(QWidget):
         self.mod_valaszto.addItems(['Videó + Hang', 'Csak Hang (mp3)', 'Csak Videó'])
         self.cimke_felbontas = QLabel('Felbontás:')
         self.felbontas_valaszto = QComboBox()
-        self.felbontas_valaszto.addItem('Elérhető felbontásokhoz URL-t adj meg!')
+        self.felbontas_valaszto.addItem('Elérhető felbontásokhoz URL kell.')
         self.felbontas_valaszto.setEnabled(False)
         self.mezo_url.textChanged.connect(self.felbontasok)
         self.gomb_kimenet = QPushButton('Kimeneti mappa kiválasztása')
         self.gomb_kimenet.clicked.connect(self.kimenet)
         self.kimeneti_mappa = ''
-        self.gomb_letoltes = QPushButton('Letöltés')
+        self.gomb_letoltes = QPushButton('Letöltés
+        (Előbb válaszd ki a kimeneti mapát)')
         self.gomb_letoltes.clicked.connect(self.letoltes)
         self.cimke_allapot = QLabel('Letöltés állapota:')
         self.sav = QProgressBar()
