@@ -7,7 +7,7 @@ import threading
 class Letolto(QWidget):
     def __init__(self):
         super().__init__()
-        self.setWindowTitle('YouTube Letöltő')
+        self.setWindowTitle('Videó Letöltő')
         self.setWindowIcon(QIcon())
         self.setGeometry(100, 100, 400, 250)
         self.felulet()
