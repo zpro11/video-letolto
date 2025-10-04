@@ -3,7 +3,7 @@
 ## Fő funkciók
 
 * Videó + hang letöltése
-* Csak hang letöltése (mp3)
+* Csak hang letöltése
 * Csak videó letöltése
 * Széleskörű weboldal támogatás (Youtube, Videa, stb.)
 
