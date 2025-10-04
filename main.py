@@ -14,7 +14,7 @@ class Letolto(QWidget):
 
     def felulet(self):
         elrendezes = QVBoxLayout()
-        self.cimke_url = QLabel('YouTube videó URL:')
+        self.cimke_url = QLabel('Videó URL:')
         self.mezo_url = QLineEdit()
         self.cimke_mod = QLabel('Letöltési mód:')
         self.mod_valaszto = QComboBox()
