@@ -1,10 +1,11 @@
-# YouTube Downloader Program
+# Videó letöltő program.
 
 ## Fő funkciók
 
 * Videó + hang letöltése
 * Csak hang letöltése (mp3)
 * Csak videó letöltése
+* Széleskörű weboldal támogatás (Youtube, Videa, stb.)
 
 ## Technológiák
 
